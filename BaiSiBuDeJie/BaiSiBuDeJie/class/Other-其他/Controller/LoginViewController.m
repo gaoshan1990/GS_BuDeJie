@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 
 @interface LoginViewController ()
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *rightConstraintion;
 
 @end
 
@@ -19,6 +20,19 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)quckLogin:(UIButton *)sender {
+    
+    self.rightConstraintion.constant =-self.view.bounds.size.width;
+    
+    [UIView animateWithDuration:0.2 animations:^{
+        
+        [self.view layoutIfNeeded];
+
+    }];
+    
+    
+    
+}
 
 
 
