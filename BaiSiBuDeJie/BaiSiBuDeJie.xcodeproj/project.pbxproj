@@ -15,6 +15,16 @@
 		0C1D6ECE1DF544E600783266 /* GSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D6ECD1DF544E600783266 /* GSMeViewController.m */; };
 		0C1D6ED11DF5452500783266 /* GSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D6ED01DF5452500783266 /* GSTabBar.m */; };
 		0C1D6ED51DF5472800783266 /* UIView+ExTension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D6ED41DF5472800783266 /* UIView+ExTension.m */; };
+		0C59686E1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59686D1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m */; };
+		0C5968741DF65DCB00C37AC0 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5968731DF65DCB00C37AC0 /* CustomButton.m */; };
+		0C5968771DF66AA500C37AC0 /* GSTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5968761DF66AA500C37AC0 /* GSTopicViewController.m */; };
+		0C59687A1DF66ACE00C37AC0 /* GSAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5968791DF66ACE00C37AC0 /* GSAllViewController.m */; };
+		0C59687D1DF66AE100C37AC0 /* GSVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59687C1DF66AE100C37AC0 /* GSVideoViewController.m */; };
+		0C5968801DF66AF000C37AC0 /* GSVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59687F1DF66AF000C37AC0 /* GSVoiceViewController.m */; };
+		0C5968831DF66AFF00C37AC0 /* GSPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5968821DF66AFF00C37AC0 /* GSPictureViewController.m */; };
+		0C5968861DF66B0E00C37AC0 /* GSWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5968851DF66B0E00C37AC0 /* GSWordViewController.m */; };
+		0C5968881DF69ECC00C37AC0 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5968871DF69ECC00C37AC0 /* LoginViewController.storyboard */; };
+		0C59688B1DF69F2500C37AC0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59688A1DF69F2500C37AC0 /* LoginViewController.m */; };
 		0CBAE85D1DF509C4006D3F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE85C1DF509C4006D3F01 /* main.m */; };
 		0CBAE8601DF509C4006D3F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE85F1DF509C4006D3F01 /* AppDelegate.m */; };
 		0CBAE8681DF509C4006D3F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE8671DF509C4006D3F01 /* Assets.xcassets */; };
@@ -57,6 +67,25 @@
 		0C1D6ED21DF5463300783266 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0C1D6ED31DF5472800783266 /* UIView+ExTension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExTension.h"; sourceTree = "<group>"; };
 		0C1D6ED41DF5472800783266 /* UIView+ExTension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExTension.m"; sourceTree = "<group>"; };
+		0C59686C1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ExTension.h"; sourceTree = "<group>"; };
+		0C59686D1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ExTension.m"; sourceTree = "<group>"; };
+		0C5968721DF65DCB00C37AC0 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		0C5968731DF65DCB00C37AC0 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		0C5968751DF66AA500C37AC0 /* GSTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTopicViewController.h; sourceTree = "<group>"; };
+		0C5968761DF66AA500C37AC0 /* GSTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTopicViewController.m; sourceTree = "<group>"; };
+		0C5968781DF66ACE00C37AC0 /* GSAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAllViewController.h; sourceTree = "<group>"; };
+		0C5968791DF66ACE00C37AC0 /* GSAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAllViewController.m; sourceTree = "<group>"; };
+		0C59687B1DF66AE100C37AC0 /* GSVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSVideoViewController.h; sourceTree = "<group>"; };
+		0C59687C1DF66AE100C37AC0 /* GSVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSVideoViewController.m; sourceTree = "<group>"; };
+		0C59687E1DF66AF000C37AC0 /* GSVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSVoiceViewController.h; sourceTree = "<group>"; };
+		0C59687F1DF66AF000C37AC0 /* GSVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSVoiceViewController.m; sourceTree = "<group>"; };
+		0C5968811DF66AFF00C37AC0 /* GSPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSPictureViewController.h; sourceTree = "<group>"; };
+		0C5968821DF66AFF00C37AC0 /* GSPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSPictureViewController.m; sourceTree = "<group>"; };
+		0C5968841DF66B0E00C37AC0 /* GSWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSWordViewController.h; sourceTree = "<group>"; };
+		0C5968851DF66B0E00C37AC0 /* GSWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSWordViewController.m; sourceTree = "<group>"; };
+		0C5968871DF69ECC00C37AC0 /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		0C5968891DF69F2500C37AC0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0C59688A1DF69F2500C37AC0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0CBAE8581DF509C4006D3F01 /* BaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAE85C1DF509C4006D3F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CBAE85E1DF509C4006D3F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -155,6 +184,18 @@
 			children = (
 				0C1D6EC61DF5449900783266 /* GSEssenceViewController.h */,
 				0C1D6EC71DF5449900783266 /* GSEssenceViewController.m */,
+				0C5968751DF66AA500C37AC0 /* GSTopicViewController.h */,
+				0C5968761DF66AA500C37AC0 /* GSTopicViewController.m */,
+				0C5968781DF66ACE00C37AC0 /* GSAllViewController.h */,
+				0C5968791DF66ACE00C37AC0 /* GSAllViewController.m */,
+				0C59687B1DF66AE100C37AC0 /* GSVideoViewController.h */,
+				0C59687C1DF66AE100C37AC0 /* GSVideoViewController.m */,
+				0C59687E1DF66AF000C37AC0 /* GSVoiceViewController.h */,
+				0C59687F1DF66AF000C37AC0 /* GSVoiceViewController.m */,
+				0C5968811DF66AFF00C37AC0 /* GSPictureViewController.h */,
+				0C5968821DF66AFF00C37AC0 /* GSPictureViewController.m */,
+				0C5968841DF66B0E00C37AC0 /* GSWordViewController.h */,
+				0C5968851DF66B0E00C37AC0 /* GSWordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -289,6 +330,10 @@
 			children = (
 				0C1D6ED31DF5472800783266 /* UIView+ExTension.h */,
 				0C1D6ED41DF5472800783266 /* UIView+ExTension.m */,
+				0C59686C1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.h */,
+				0C59686D1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m */,
+				0C5968721DF65DCB00C37AC0 /* CustomButton.h */,
+				0C5968731DF65DCB00C37AC0 /* CustomButton.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -300,6 +345,9 @@
 				0C1D6EBE1DF541C900783266 /* RootViewController.m */,
 				0C1D6EC01DF5438300783266 /* GSNavigationController.h */,
 				0C1D6EC11DF5438300783266 /* GSNavigationController.m */,
+				0C5968871DF69ECC00C37AC0 /* LoginViewController.storyboard */,
+				0C5968891DF69F2500C37AC0 /* LoginViewController.h */,
+				0C59688A1DF69F2500C37AC0 /* LoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -475,6 +523,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CBAE8681DF509C4006D3F01 /* Assets.xcassets in Resources */,
+				0C5968881DF69ECC00C37AC0 /* LoginViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,14 +549,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CBAE8601DF509C4006D3F01 /* AppDelegate.m in Sources */,
+				0C5968801DF66AF000C37AC0 /* GSVoiceViewController.m in Sources */,
 				0C1D6EC81DF5449900783266 /* GSEssenceViewController.m in Sources */,
+				0C59687A1DF66ACE00C37AC0 /* GSAllViewController.m in Sources */,
+				0C59686E1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m in Sources */,
+				0C5968771DF66AA500C37AC0 /* GSTopicViewController.m in Sources */,
 				0C1D6ECE1DF544E600783266 /* GSMeViewController.m in Sources */,
 				0C1D6EC21DF5438300783266 /* GSNavigationController.m in Sources */,
 				0C1D6ED51DF5472800783266 /* UIView+ExTension.m in Sources */,
 				0C1D6ED11DF5452500783266 /* GSTabBar.m in Sources */,
+				0C5968861DF66B0E00C37AC0 /* GSWordViewController.m in Sources */,
 				0C1D6EC51DF5443B00783266 /* GSFollowViewController.m in Sources */,
 				0CBAE85D1DF509C4006D3F01 /* main.m in Sources */,
+				0C59687D1DF66AE100C37AC0 /* GSVideoViewController.m in Sources */,
 				0C1D6ECB1DF544C500783266 /* GSNewViewController.m in Sources */,
+				0C59688B1DF69F2500C37AC0 /* LoginViewController.m in Sources */,
+				0C5968831DF66AFF00C37AC0 /* GSPictureViewController.m in Sources */,
+				0C5968741DF65DCB00C37AC0 /* CustomButton.m in Sources */,
 				0C1D6EBF1DF541C900783266 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -632,6 +690,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaiSiBuDeJie/PrefixHeader.pch";
 				INFOPLIST_FILE = BaiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinavotech.BaiSiBuDeJie;
@@ -643,6 +702,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaiSiBuDeJie/PrefixHeader.pch";
 				INFOPLIST_FILE = BaiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinavotech.BaiSiBuDeJie;

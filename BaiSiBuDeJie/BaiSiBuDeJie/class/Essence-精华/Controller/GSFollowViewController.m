@@ -16,12 +16,31 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    
+    UIButton  *btn =[[UIButton alloc] init];
+    
+    btn.frame =CGRectMake(100, 100, 100, 30);
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn setTitle:@"点击登录" forState:UIControlStateNormal];
+    
+    [self.view addSubview:btn];
+    
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)btnClick:(UIButton*)btn
+{
+    
+    UIStoryboard  *storyBoard =[UIStoryboard storyboardWithName:@"LoginViewController" bundle:nil];
+    
+    UIViewController *loginController =[storyBoard instantiateViewControllerWithIdentifier:@"login"];
+    
+    [self presentViewController:loginController animated:YES completion:nil];
+    
 }
 
 /*
