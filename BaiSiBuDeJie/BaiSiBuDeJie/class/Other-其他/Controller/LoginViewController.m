@@ -19,18 +19,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+- (IBAction)closeBtn:(UIButton *)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (IBAction)quckLogin:(UIButton *)sender {
     
-    self.rightConstraintion.constant =-self.view.bounds.size.width;
-    
+    if (self.rightConstraintion.constant==0) {
+        self.rightConstraintion.constant =-self.view.GS_width;
+    }else
+    {
+    self.rightConstraintion.constant =0;
+    }
     [UIView animateWithDuration:0.2 animations:^{
         
         [self.view layoutIfNeeded];
 
     }];
-    
-    
     
 }
 
