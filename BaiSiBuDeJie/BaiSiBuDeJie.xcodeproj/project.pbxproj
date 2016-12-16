@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1867E21E03C374001791DF /* MeTableviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1867E11E03C374001791DF /* MeTableviewCell.m */; };
+		0C1867E51E03C513001791DF /* GSGlobalConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1867E41E03C513001791DF /* GSGlobalConst.m */; };
 		0C1D6EBF1DF541C900783266 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D6EBE1DF541C900783266 /* RootViewController.m */; };
 		0C1D6EC21DF5438300783266 /* GSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D6EC11DF5438300783266 /* GSNavigationController.m */; };
 		0C1D6EC51DF5443B00783266 /* GSFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D6EC41DF5443B00783266 /* GSFollowViewController.m */; };
@@ -25,11 +27,17 @@
 		0C5968861DF66B0E00C37AC0 /* GSWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5968851DF66B0E00C37AC0 /* GSWordViewController.m */; };
 		0C5968881DF69ECC00C37AC0 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5968871DF69ECC00C37AC0 /* LoginViewController.storyboard */; };
 		0C59688B1DF69F2500C37AC0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59688A1DF69F2500C37AC0 /* LoginViewController.m */; };
+		0C892DC11E03CFD300758282 /* GSMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C892DC01E03CFD300758282 /* GSMeSquare.m */; };
+		0C892DC41E03CFFD00758282 /* GSFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C892DC31E03CFFD00758282 /* GSFootView.m */; };
+		0C892DC71E03D01A00758282 /* GSSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C892DC61E03D01A00758282 /* GSSquareButton.m */; };
+		0C892DCB1E03ECC600758282 /* GSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C892DCA1E03ECC600758282 /* GSSettingViewController.m */; };
+		0C892DCE1E03EE0D00758282 /* GSClearCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C892DCD1E03EE0D00758282 /* GSClearCell.m */; };
 		0CBAE85D1DF509C4006D3F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE85C1DF509C4006D3F01 /* main.m */; };
 		0CBAE8601DF509C4006D3F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE85F1DF509C4006D3F01 /* AppDelegate.m */; };
 		0CBAE8681DF509C4006D3F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAE8671DF509C4006D3F01 /* Assets.xcassets */; };
 		0CBAE8761DF509C4006D3F01 /* BaiSiBuDeJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE8751DF509C4006D3F01 /* BaiSiBuDeJieTests.m */; };
 		0CBAE8811DF509C4006D3F01 /* BaiSiBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE8801DF509C4006D3F01 /* BaiSiBuDeJieUITests.m */; };
+		2979DEA402EB65D7D7D49AB6 /* Pods_BaiSiBuDeJie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11BCFF128CAA283ACFDE8B /* Pods_BaiSiBuDeJie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00087601BF2BDB87239D1A56 /* Pods-BaiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
+		0C1867E01E03C374001791DF /* MeTableviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeTableviewCell.h; sourceTree = "<group>"; };
+		0C1867E11E03C374001791DF /* MeTableviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeTableviewCell.m; sourceTree = "<group>"; };
+		0C1867E31E03C513001791DF /* GSGlobalConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSGlobalConst.h; sourceTree = "<group>"; };
+		0C1867E41E03C513001791DF /* GSGlobalConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSGlobalConst.m; sourceTree = "<group>"; };
 		0C1D6EBD1DF541C900783266 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		0C1D6EBE1DF541C900783266 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		0C1D6EC01DF5438300783266 /* GSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSNavigationController.h; sourceTree = "<group>"; };
@@ -86,6 +99,16 @@
 		0C5968871DF69ECC00C37AC0 /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 		0C5968891DF69F2500C37AC0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		0C59688A1DF69F2500C37AC0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0C892DBF1E03CFD300758282 /* GSMeSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSMeSquare.h; sourceTree = "<group>"; };
+		0C892DC01E03CFD300758282 /* GSMeSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSMeSquare.m; sourceTree = "<group>"; };
+		0C892DC21E03CFFD00758282 /* GSFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSFootView.h; sourceTree = "<group>"; };
+		0C892DC31E03CFFD00758282 /* GSFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSFootView.m; sourceTree = "<group>"; };
+		0C892DC51E03D01A00758282 /* GSSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSSquareButton.h; sourceTree = "<group>"; };
+		0C892DC61E03D01A00758282 /* GSSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSquareButton.m; sourceTree = "<group>"; };
+		0C892DC91E03ECC600758282 /* GSSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSSettingViewController.h; sourceTree = "<group>"; };
+		0C892DCA1E03ECC600758282 /* GSSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSSettingViewController.m; sourceTree = "<group>"; };
+		0C892DCC1E03EE0D00758282 /* GSClearCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSClearCell.h; sourceTree = "<group>"; };
+		0C892DCD1E03EE0D00758282 /* GSClearCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSClearCell.m; sourceTree = "<group>"; };
 		0CBAE8581DF509C4006D3F01 /* BaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAE85C1DF509C4006D3F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CBAE85E1DF509C4006D3F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +121,8 @@
 		0CBAE87C1DF509C4006D3F01 /* BaiSiBuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiBuDeJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAE8801DF509C4006D3F01 /* BaiSiBuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiSiBuDeJieUITests.m; sourceTree = "<group>"; };
 		0CBAE8821DF509C4006D3F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270220D740FC2AADD89F178A /* Pods-BaiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
+		FC11BCFF128CAA283ACFDE8B /* Pods_BaiSiBuDeJie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaiSiBuDeJie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2979DEA402EB65D7D7D49AB6 /* Pods_BaiSiBuDeJie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +288,8 @@
 			children = (
 				0C1D6ECC1DF544E600783266 /* GSMeViewController.h */,
 				0C1D6ECD1DF544E600783266 /* GSMeViewController.m */,
+				0C892DC91E03ECC600758282 /* GSSettingViewController.h */,
+				0C892DCA1E03ECC600758282 /* GSSettingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -269,6 +297,8 @@
 		0C1D6EB31DF540D300783266 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0C892DBF1E03CFD300758282 /* GSMeSquare.h */,
+				0C892DC01E03CFD300758282 /* GSMeSquare.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -276,6 +306,14 @@
 		0C1D6EB41DF540D300783266 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0C1867E01E03C374001791DF /* MeTableviewCell.h */,
+				0C1867E11E03C374001791DF /* MeTableviewCell.m */,
+				0C892DC21E03CFFD00758282 /* GSFootView.h */,
+				0C892DC31E03CFFD00758282 /* GSFootView.m */,
+				0C892DC51E03D01A00758282 /* GSSquareButton.h */,
+				0C892DC61E03D01A00758282 /* GSSquareButton.m */,
+				0C892DCC1E03EE0D00758282 /* GSClearCell.h */,
+				0C892DCD1E03EE0D00758282 /* GSClearCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +359,8 @@
 				0C1D6EBA1DF540D300783266 /* Category */,
 				0CBAE85E1DF509C4006D3F01 /* AppDelegate.h */,
 				0CBAE85F1DF509C4006D3F01 /* AppDelegate.m */,
+				0C1867E31E03C513001791DF /* GSGlobalConst.h */,
+				0C1867E41E03C513001791DF /* GSGlobalConst.m */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
@@ -368,6 +408,8 @@
 				0CBAE8741DF509C4006D3F01 /* BaiSiBuDeJieTests */,
 				0CBAE87F1DF509C4006D3F01 /* BaiSiBuDeJieUITests */,
 				0CBAE8591DF509C4006D3F01 /* Products */,
+				8BAAABA1ADCE71262D4C2702 /* Pods */,
+				BC878E7664B12AB0833B8F72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -419,6 +461,23 @@
 			path = BaiSiBuDeJieUITests;
 			sourceTree = "<group>";
 		};
+		8BAAABA1ADCE71262D4C2702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				270220D740FC2AADD89F178A /* Pods-BaiSiBuDeJie.debug.xcconfig */,
+				00087601BF2BDB87239D1A56 /* Pods-BaiSiBuDeJie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC878E7664B12AB0833B8F72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC11BCFF128CAA283ACFDE8B /* Pods_BaiSiBuDeJie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -426,9 +485,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CBAE8851DF509C4006D3F01 /* Build configuration list for PBXNativeTarget "BaiSiBuDeJie" */;
 			buildPhases = (
+				7EBF81AFF52B8A2484066C66 /* [CP] Check Pods Manifest.lock */,
 				0CBAE8541DF509C4006D3F01 /* Sources */,
 				0CBAE8551DF509C4006D3F01 /* Frameworks */,
 				0CBAE8561DF509C4006D3F01 /* Resources */,
+				3967A8516EA62E66D05AA730 /* [CP] Embed Pods Frameworks */,
+				AA819FC415B379559601F9F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -544,6 +606,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3967A8516EA62E66D05AA730 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EBF81AFF52B8A2484066C66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA819FC415B379559601F9F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CBAE8541DF509C4006D3F01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -551,6 +661,8 @@
 			files = (
 				0CBAE8601DF509C4006D3F01 /* AppDelegate.m in Sources */,
 				0C5968801DF66AF000C37AC0 /* GSVoiceViewController.m in Sources */,
+				0C1867E51E03C513001791DF /* GSGlobalConst.m in Sources */,
+				0C892DC11E03CFD300758282 /* GSMeSquare.m in Sources */,
 				0C1D6EC81DF5449900783266 /* GSEssenceViewController.m in Sources */,
 				0C59687A1DF66ACE00C37AC0 /* GSAllViewController.m in Sources */,
 				0C59686E1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m in Sources */,
@@ -558,12 +670,17 @@
 				0C1D6ECE1DF544E600783266 /* GSMeViewController.m in Sources */,
 				0C1D6EC21DF5438300783266 /* GSNavigationController.m in Sources */,
 				0C1D6ED51DF5472800783266 /* UIView+ExTension.m in Sources */,
+				0C1867E21E03C374001791DF /* MeTableviewCell.m in Sources */,
 				0C1D6ED11DF5452500783266 /* GSTabBar.m in Sources */,
 				0C5968861DF66B0E00C37AC0 /* GSWordViewController.m in Sources */,
+				0C892DCB1E03ECC600758282 /* GSSettingViewController.m in Sources */,
 				0C1D6EC51DF5443B00783266 /* GSFollowViewController.m in Sources */,
 				0CBAE85D1DF509C4006D3F01 /* main.m in Sources */,
 				0C59687D1DF66AE100C37AC0 /* GSVideoViewController.m in Sources */,
 				0C1D6ECB1DF544C500783266 /* GSNewViewController.m in Sources */,
+				0C892DCE1E03EE0D00758282 /* GSClearCell.m in Sources */,
+				0C892DC71E03D01A00758282 /* GSSquareButton.m in Sources */,
+				0C892DC41E03CFFD00758282 /* GSFootView.m in Sources */,
 				0C59688B1DF69F2500C37AC0 /* LoginViewController.m in Sources */,
 				0C5968831DF66AFF00C37AC0 /* GSPictureViewController.m in Sources */,
 				0C5968741DF65DCB00C37AC0 /* CustomButton.m in Sources */,
@@ -689,6 +806,7 @@
 		};
 		0CBAE8861DF509C4006D3F01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270220D740FC2AADD89F178A /* Pods-BaiSiBuDeJie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -703,6 +821,7 @@
 		};
 		0CBAE8871DF509C4006D3F01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00087601BF2BDB87239D1A56 /* Pods-BaiSiBuDeJie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";

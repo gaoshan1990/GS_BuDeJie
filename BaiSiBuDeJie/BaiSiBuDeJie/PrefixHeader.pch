@@ -26,6 +26,8 @@
 //#import "UIImage+XMGExtension.h"
 //#import "UIImageView+XMGExtension.h"
 #import "UIView+ExTension.h"
+#import "UIBarButtonItem+ExTension.h"
+#import "GSGlobalConst.h"
 /*** 评论-头部控件-字体 ***/
 #define XMGCommentSectionHeaderFont [UIFont systemFontOfSize:15]
 
@@ -42,7 +44,7 @@
 #define GSLog(...)
 #endif
 
-#define XMGLogFunc XMGLog(@"%s", __func__);
+#define GSLogFunc GSLog(@"%s", __func__);
 
 /*** 颜色 ***/
 #define GSColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
