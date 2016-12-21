@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "GSTopic.h"
 @interface GSTopicViewController : UITableViewController
-
+- (GSTopicType)type;
 @end

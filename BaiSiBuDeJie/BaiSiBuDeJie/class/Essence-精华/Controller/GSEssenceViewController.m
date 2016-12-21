@@ -50,7 +50,8 @@
 -(void)setupTitlesView
 {
     self.titlesView =[[UIView alloc] init];
-    self.titlesView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.7];
+    self.titlesView .backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.7];
+
     self.titlesView.frame = CGRectMake(0, 64, self.view.GS_width, 35);
     [self.view addSubview:self.titlesView];
     
@@ -106,7 +107,7 @@
     self.scrollview =[[UIScrollView alloc] init];
     self.scrollview.frame =self.view.bounds;
     
-    self.scrollview.contentSize =CGSizeMake(self.view.GS_width*self.titlesView.subviews.count, 0);
+    self.scrollview.contentSize =CGSizeMake(self.view.GS_width*5, 0);
     self.scrollview.pagingEnabled = YES;
     self.scrollview.showsHorizontalScrollIndicator = NO;
     self.scrollview.showsVerticalScrollIndicator = NO;

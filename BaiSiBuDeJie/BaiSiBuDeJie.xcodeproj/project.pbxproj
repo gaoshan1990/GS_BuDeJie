@@ -17,6 +17,14 @@
 		0C1D6ECE1DF544E600783266 /* GSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D6ECD1DF544E600783266 /* GSMeViewController.m */; };
 		0C1D6ED11DF5452500783266 /* GSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D6ED01DF5452500783266 /* GSTabBar.m */; };
 		0C1D6ED51DF5472800783266 /* UIView+ExTension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D6ED41DF5472800783266 /* UIView+ExTension.m */; };
+		0C2B40E51E07D79600C01106 /* GSTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B40E41E07D79600C01106 /* GSTopic.m */; };
+		0C2B40E81E07DF3300C01106 /* GSRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B40E71E07DF3300C01106 /* GSRefreshNormalHeader.m */; };
+		0C42434C1E0A25E500F96139 /* GSRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C42434B1E0A25E500F96139 /* GSRefreshAutoFooter.m */; };
+		0C4243501E0A533100F96139 /* GSTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C42434E1E0A533100F96139 /* GSTopicCell.m */; };
+		0C4243511E0A533100F96139 /* GSTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C42434F1E0A533100F96139 /* GSTopicCell.xib */; };
+		0C4243541E0A583300F96139 /* GSAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4243531E0A583300F96139 /* GSAFHTTPSessionManager.m */; };
+		0C42435A1E0A609500F96139 /* UIImage+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4243591E0A609500F96139 /* UIImage+Circle.m */; };
+		0C42435D1E0A628800F96139 /* UIImageView+GSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C42435C1E0A628800F96139 /* UIImageView+GSExtension.m */; };
 		0C59686E1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59686D1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m */; };
 		0C5968741DF65DCB00C37AC0 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5968731DF65DCB00C37AC0 /* CustomButton.m */; };
 		0C5968771DF66AA500C37AC0 /* GSTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5968761DF66AA500C37AC0 /* GSTopicViewController.m */; };
@@ -80,6 +88,21 @@
 		0C1D6ED21DF5463300783266 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0C1D6ED31DF5472800783266 /* UIView+ExTension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExTension.h"; sourceTree = "<group>"; };
 		0C1D6ED41DF5472800783266 /* UIView+ExTension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExTension.m"; sourceTree = "<group>"; };
+		0C2B40E31E07D79600C01106 /* GSTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTopic.h; sourceTree = "<group>"; };
+		0C2B40E41E07D79600C01106 /* GSTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTopic.m; sourceTree = "<group>"; };
+		0C2B40E61E07DF3300C01106 /* GSRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSRefreshNormalHeader.h; sourceTree = "<group>"; };
+		0C2B40E71E07DF3300C01106 /* GSRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSRefreshNormalHeader.m; sourceTree = "<group>"; };
+		0C42434A1E0A25E500F96139 /* GSRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSRefreshAutoFooter.h; sourceTree = "<group>"; };
+		0C42434B1E0A25E500F96139 /* GSRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSRefreshAutoFooter.m; sourceTree = "<group>"; };
+		0C42434D1E0A533100F96139 /* GSTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSTopicCell.h; sourceTree = "<group>"; };
+		0C42434E1E0A533100F96139 /* GSTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSTopicCell.m; sourceTree = "<group>"; };
+		0C42434F1E0A533100F96139 /* GSTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GSTopicCell.xib; sourceTree = "<group>"; };
+		0C4243521E0A583300F96139 /* GSAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0C4243531E0A583300F96139 /* GSAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		0C4243581E0A609500F96139 /* UIImage+Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Circle.h"; sourceTree = "<group>"; };
+		0C4243591E0A609500F96139 /* UIImage+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Circle.m"; sourceTree = "<group>"; };
+		0C42435B1E0A628800F96139 /* UIImageView+GSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GSExtension.h"; sourceTree = "<group>"; };
+		0C42435C1E0A628800F96139 /* UIImageView+GSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GSExtension.m"; sourceTree = "<group>"; };
 		0C59686C1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ExTension.h"; sourceTree = "<group>"; };
 		0C59686D1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ExTension.m"; sourceTree = "<group>"; };
 		0C5968721DF65DCB00C37AC0 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
@@ -229,6 +252,8 @@
 		0C1D6EAB1DF540D300783266 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0C2B40E31E07D79600C01106 /* GSTopic.h */,
+				0C2B40E41E07D79600C01106 /* GSTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,6 +261,9 @@
 		0C1D6EAC1DF540D300783266 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0C42434D1E0A533100F96139 /* GSTopicCell.h */,
+				0C42434E1E0A533100F96139 /* GSTopicCell.m */,
+				0C42434F1E0A533100F96139 /* GSTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -361,6 +389,8 @@
 				0CBAE85F1DF509C4006D3F01 /* AppDelegate.m */,
 				0C1867E31E03C513001791DF /* GSGlobalConst.h */,
 				0C1867E41E03C513001791DF /* GSGlobalConst.m */,
+				0C4243521E0A583300F96139 /* GSAFHTTPSessionManager.h */,
+				0C4243531E0A583300F96139 /* GSAFHTTPSessionManager.m */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
@@ -374,6 +404,10 @@
 				0C59686D1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m */,
 				0C5968721DF65DCB00C37AC0 /* CustomButton.h */,
 				0C5968731DF65DCB00C37AC0 /* CustomButton.m */,
+				0C4243581E0A609500F96139 /* UIImage+Circle.h */,
+				0C4243591E0A609500F96139 /* UIImage+Circle.m */,
+				0C42435B1E0A628800F96139 /* UIImageView+GSExtension.h */,
+				0C42435C1E0A628800F96139 /* UIImageView+GSExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -397,6 +431,10 @@
 			children = (
 				0C1D6ECF1DF5452500783266 /* GSTabBar.h */,
 				0C1D6ED01DF5452500783266 /* GSTabBar.m */,
+				0C2B40E61E07DF3300C01106 /* GSRefreshNormalHeader.h */,
+				0C2B40E71E07DF3300C01106 /* GSRefreshNormalHeader.m */,
+				0C42434A1E0A25E500F96139 /* GSRefreshAutoFooter.h */,
+				0C42434B1E0A25E500F96139 /* GSRefreshAutoFooter.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -585,6 +623,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C4243511E0A533100F96139 /* GSTopicCell.xib in Resources */,
 				0CBAE8681DF509C4006D3F01 /* Assets.xcassets in Resources */,
 				0C5968881DF69ECC00C37AC0 /* LoginViewController.storyboard in Resources */,
 			);
@@ -660,13 +699,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CBAE8601DF509C4006D3F01 /* AppDelegate.m in Sources */,
+				0C2B40E81E07DF3300C01106 /* GSRefreshNormalHeader.m in Sources */,
 				0C5968801DF66AF000C37AC0 /* GSVoiceViewController.m in Sources */,
+				0C4243501E0A533100F96139 /* GSTopicCell.m in Sources */,
 				0C1867E51E03C513001791DF /* GSGlobalConst.m in Sources */,
 				0C892DC11E03CFD300758282 /* GSMeSquare.m in Sources */,
 				0C1D6EC81DF5449900783266 /* GSEssenceViewController.m in Sources */,
 				0C59687A1DF66ACE00C37AC0 /* GSAllViewController.m in Sources */,
 				0C59686E1DF64F4900C37AC0 /* UIBarButtonItem+ExTension.m in Sources */,
+				0C42435A1E0A609500F96139 /* UIImage+Circle.m in Sources */,
 				0C5968771DF66AA500C37AC0 /* GSTopicViewController.m in Sources */,
+				0C42434C1E0A25E500F96139 /* GSRefreshAutoFooter.m in Sources */,
 				0C1D6ECE1DF544E600783266 /* GSMeViewController.m in Sources */,
 				0C1D6EC21DF5438300783266 /* GSNavigationController.m in Sources */,
 				0C1D6ED51DF5472800783266 /* UIView+ExTension.m in Sources */,
@@ -679,12 +722,15 @@
 				0C59687D1DF66AE100C37AC0 /* GSVideoViewController.m in Sources */,
 				0C1D6ECB1DF544C500783266 /* GSNewViewController.m in Sources */,
 				0C892DCE1E03EE0D00758282 /* GSClearCell.m in Sources */,
+				0C42435D1E0A628800F96139 /* UIImageView+GSExtension.m in Sources */,
 				0C892DC71E03D01A00758282 /* GSSquareButton.m in Sources */,
+				0C4243541E0A583300F96139 /* GSAFHTTPSessionManager.m in Sources */,
 				0C892DC41E03CFFD00758282 /* GSFootView.m in Sources */,
 				0C59688B1DF69F2500C37AC0 /* LoginViewController.m in Sources */,
 				0C5968831DF66AFF00C37AC0 /* GSPictureViewController.m in Sources */,
 				0C5968741DF65DCB00C37AC0 /* CustomButton.m in Sources */,
 				0C1D6EBF1DF541C900783266 /* RootViewController.m in Sources */,
+				0C2B40E51E07D79600C01106 /* GSTopic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

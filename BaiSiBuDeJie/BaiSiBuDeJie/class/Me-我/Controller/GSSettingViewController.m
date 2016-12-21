@@ -35,7 +35,7 @@ static NSString * const GSSettingCellId = @"GSSettingCell";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 3;
+    return 2;
 }
 
 
@@ -43,7 +43,11 @@ static NSString * const GSSettingCellId = @"GSSettingCell";
   
     if (indexPath.row ==0) {
         
-        return [tableView dequeueReusableCellWithIdentifier:GSClearCacheCellId];
+        GSClearCell *cell =[tableView dequeueReusableCellWithIdentifier:GSClearCacheCellId];
+        
+//        cell.textLabel.text =[NSString stringWithFormat:@"%ld",indexPath.row];
+        
+        return cell;
     }else if(indexPath.row ==1)
     {
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:GSSettingCellId];
